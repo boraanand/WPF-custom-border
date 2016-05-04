@@ -1,0 +1,40 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:CustomControl">
+
+    <Style TargetType="{x:Type local:CustomBox}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:CustomBox}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                        <DockPanel >
+                            <Rectangle DockPanel.Dock="Left" Width="{Binding LeftThickness, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           Fill="{Binding LeftColor, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           VerticalAlignment="Stretch"/>
+                            <Rectangle DockPanel.Dock="Top" Height="{Binding TopThickness, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           Fill="{Binding TopColor, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           HorizontalAlignment="Stretch"/>
+                            <Rectangle DockPanel.Dock="Right" Width="{Binding RightThickness, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           Fill="{Binding RightColor, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           VerticalAlignment="Stretch"/>
+                            <Rectangle DockPanel.Dock="Bottom" Height="{Binding BottomThickness, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           Fill="{Binding BottomColor, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}"
+                                           HorizontalAlignment="Stretch"/>
+                            <Rectangle>
+                                <Rectangle.Fill>
+                                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                                            <GradientStop Color="{Binding FillColor1, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}" Offset="0" />
+                                            <GradientStop Color="{Binding FillColor2, UpdateSourceTrigger=PropertyChanged, RelativeSource={RelativeSource TemplatedParent}}" Offset="1" />
+                                        </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                        </DockPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter> 
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,17 @@
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\bin\Debug\CustomControl.exe.config
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\bin\Debug\CustomControl.exe
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\bin\Debug\CustomControl.pdb
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\Dictionary.baml
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\MainWindow.g.cs
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\App.g.cs
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl_MarkupCompile.cache
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl_MarkupCompile.lref
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\MainWindow.baml
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\Themes\Generic.baml
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl.g.resources
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl.Properties.Resources.resources
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl.csproj.GenerateResource.Cache
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl.exe
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl.pdb
+C:\Users\anand\Documents\Visual Studio 2015\Projects\CustomControl\CustomControl\obj\Debug\CustomControl.csprojResolveAssemblyReference.cache
